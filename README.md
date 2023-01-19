@@ -5,12 +5,12 @@ In this project i implemented cat and grep unix utilities in C programming langu
 Code is checked for all possible memory leaks, conditional jumps and also follows the Google Style.
 
 ### cat
-cat supports following flags: "-b" "-e" "-n" "-s" "-t" "-v" "-E" "-T" "--number" "--number-nonblank" "--squeeze-blank"
+cat supports following flags: "-b" "-e" "-n" "-s" "-t" "-v" "-E" "-T" "--number" "--number-nonblank" "--squeeze-blank" and their combinations
 
 cat doesn't support input via stdin, files only
 
 ### grep
-grep supports following flags "-e <pattern>" "-i" "-v" "-c" "-l" "-n" "-h" "-s" "-f <file>"
+grep supports following flags "-e <pattern>" "-i" "-v" "-c" "-l" "-n" "-h" "-s" "-f <file>" and their combinations
 
 ### build
 utilities can be build using gcc and make. just go to src directory and type in make or make s21_grep or make s21_cat. it would build a binary in its directories:
